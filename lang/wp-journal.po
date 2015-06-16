@@ -1,0 +1,361 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+msgid "Add New"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:150
+msgid "Add a Journal"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:37
+#: WPJournal/templates/plugin-admin-settings-page.php:145
+msgid "Add a new Journal"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+msgid "All Posts"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+msgid "Author"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:155
+msgid "Cancel"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:247
+msgid "Choose a layout for the front page"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:164
+msgid "Choose the title"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:492
+msgid "Click on and drag a post to order the summary"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:176
+#: WPJournal/templates/plugin-admin-settings-page.php:325
+msgid "Complete pubblication"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal-menabo.php:309
+#: WPJournal/WPJournal-menabo.php:352
+#: WPJournal/WPJournal-menabo.php:485
+#: WPJournal/templates/plugin-admin-settings-page.php:236
+msgid "Continue"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:129
+msgid "Delete"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:105
+msgid "Delete drafts"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:101
+msgid "Drafts"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:335
+msgid "Drag and drop the posts in the boxes below"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+#: WPJournal/templates/plugin-admin-settings-page.php:125
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:339
+msgid "Featured article"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:490
+msgid "Front page"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:314
+msgid "Frontpage complete!"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:80
+msgid "Here you can manage all yours Journals"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal-menabo.php:52
+#: WPJournal/WPJournal-internalpage.php:59
+msgid "Home Page / Front Page"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:227
+msgid "Insert your logo in header"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:202
+#: WPJournal/templates/plugin-admin-settings-page.php:203
+msgid "Issue"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+msgid "Journal"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:198
+#: WPJournal/templates/plugin-admin-settings-page.php:199
+msgid "Journal Name"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:370
+msgid "Journal POSTS"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:495
+msgid "Journal POSTS AVAILABLE"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+msgid "Journal Post"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+msgid "Journal Posts"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:29
+msgid "Journal Posts written"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+msgid "Journals"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:334
+msgid "LAYOUT CHOSEN"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:425
+msgid "LOOP POSTS"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:307
+msgid "Loading..."
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal-internalpage.php:57
+msgid "MENU"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:483
+msgid "Manage all posts - Summary"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:4
+msgid "Manage your Pubblications"
+msgstr ""
+
+#. Text in function
+#: WPJournal/settings.php:1
+msgid "New Journal"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:79
+msgid "No Journal was published"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:394
+msgid "No article was added"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+msgid "Not found"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+msgid "Not found in Trash"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:212
+#: WPJournal/templates/plugin-admin-settings-page.php:214
+msgid "Other notes"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:489
+msgid "POST ORDER"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:529
+msgid "POSTS AVAILABLE"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:172
+msgid "Place posts in frontpage"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:286
+msgid "Place the posts in layout areas"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:320
+msgid "Preview"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:575
+msgid "Publish!"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:23
+#: WPJournal/templates/plugin-admin-settings-page.php:35
+msgid "Published Journals"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+msgid "Search"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:168
+msgid "Select frontpage layout"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:215
+msgid "September - Monthly by the Proudly Team"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:372
+#: WPJournal/templates/plugin-admin-settings-page.php:497
+msgid "Show published posts"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:259
+msgid "Two columns + three columns"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+msgid "Update"
+msgstr ""
+
+#. Text in function
+#: WPJournal/WPJournal_template.php:1
+msgid "View Posts"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:412
+msgid "Write"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:32
+msgid "Write a new Journal Post"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:207
+#: WPJournal/templates/plugin-admin-settings-page.php:208
+msgid "Year"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:208
+msgid "Year XII"
+msgstr ""
+
+#. Text in function
+#: WPJournal/settings.php:1
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:190
+msgid "Your new Journal"
+msgstr ""
+
+#. Text in function
+#: WPJournal/settings.php:1
+msgid "Your online newspaper in few steps."
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:315
+msgid "and saved as draft"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:343
+#: WPJournal/templates/plugin-admin-settings-page.php:348
+#: WPJournal/templates/plugin-admin-settings-page.php:351
+#: WPJournal/templates/plugin-admin-settings-page.php:354
+msgid "area"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:208
+#: WPJournal/templates/plugin-admin-settings-page.php:214
+msgid "eg:"
+msgstr ""
+
+#. Text in function
+#: WPJournal/templates/plugin-admin-settings-page.php:413
+msgid "new posts"
+msgstr ""

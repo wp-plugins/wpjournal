@@ -1,0 +1,371 @@
+body.menabo{
+    background-color:#F3F1EA
+}
+
+#page-content {
+    width:640px;
+    margin:20px auto
+}
+
+#page-content p {
+    font-size:1em;
+    font-family:Georgia;
+    line-height:1.5em;
+    text-align:justify
+}
+
+.area-titolo {
+    width:100%;
+    margin:0 auto;
+    padding-top:15px;
+	padding-bottom: 15px;
+}
+
+.area-titolo-right {
+    width:100%;
+    margin:0 auto;
+    padding-top:0px;
+	padding-bottom: 15px;
+}
+
+h4.titolo_main {
+	font-family:'Droid Serif'!important;
+    color:#fff;
+    text-shadow:2px 2px 1px #303030;
+		margin:0!important;
+	padding:0!important;
+}
+
+h4.titolo_main_internal {
+	font-family:'Droid Serif'!important;
+    color:#fff;
+    text-shadow:2px 2px 1px #303030;
+		margin:0!important;
+	padding:0!important;
+}
+
+h4.titolo_piccolo {
+	font-family:'Droid Serif'!important;
+    color:#fff;
+    text-shadow:2px 2px 1px #101010;
+		margin:0!important;
+	padding:0!important;
+}
+h4.titolo_homepage {
+	font-family:'Droid Serif'!important;
+	margin:0!important;
+	padding:0!important;
+	}
+.outer {
+    display:table;
+    width:100%
+}
+
+.inner {
+    height:340px;
+    display:table-cell;
+    vertical-align:bottom;
+    background:#eee;
+    padding:0 20px
+}
+
+.inner-base {
+    height:240px;
+    display:table-cell;
+    vertical-align:bottom;
+    padding:0 5px
+}
+
+.footer-base {
+    height:45px;
+    border-top:1px solid #DFDFDF;
+    padding-top:10px;
+    bottom:0;
+    text-align:center
+}
+
+.inner-inside {
+    height:460px;
+    display:table-cell;
+    vertical-align:bottom;
+    background:#eee;
+    padding:0 8px
+}
+
+img.attachment-thumbnail {
+    width:100%!important;
+    height:auto!important
+}
+
+.pre-WPJournal {
+    position:relative;
+    width:100%;
+    background:#fefefe
+}
+
+.blocco-WPJournal {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:50px;
+    display:block;
+    margin:0;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    -webkit-box-shadow:0 2px 4px rgba(0,0,0,0.1);
+    box-shadow:0 2px 4px rgba(0,0,0,0.1)
+}
+
+.blocco-WPJournal .wp-caption-text {
+    display:none
+}
+
+.blocco-WPJournal .gallery-item {
+    margin-top:0;
+    min-height:10px;
+    padding:0
+}
+
+.blocco-WPJournal dl {
+    margin-bottom:0
+}
+
+.titolo-WPJournal {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color:#FDFDFD;
+    background:#989EA3;
+    padding:5px 10px
+}
+
+.row-WPJournal {
+    padding-top:.4em;
+    padding-bottom:.4em;
+    margin-bottom:.6em!important;
+    border-top:1px solid #D5E3ED;
+    border-bottom:1px solid #D5E3ED;
+    background:#d5e3ed;
+    background:-moz-radial-gradient(center,ellipse cover,rgba(213,227,237,1) 0%,rgba(235,241,246,1) 98%);
+    background:-webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(213,227,237,1)),color-stop(98%,rgba(235,241,246,1)));
+    background:-webkit-radial-gradient(center,ellipse cover,rgba(213,227,237,1) 0%,rgba(235,241,246,1) 98%);
+    background:-o-radial-gradient(center,ellipse cover,rgba(213,227,237,1) 0%,rgba(235,241,246,1) 98%);
+    background:-ms-radial-gradient(center,ellipse cover,rgba(213,227,237,1) 0%,rgba(235,241,246,1) 98%);
+    background:radial-gradient(ellipse at center,rgba(213,227,237,1) 0%,rgba(235,241,246,1) 98%);
+    filter:progid: DXImageTransform.Microsoft.gradient(startColorstr='#d5e3ed',endColorstr='#ebf1f6',GradientType=1)
+}
+
+.widget_WPJournal_widget .gallery-item {
+    margin-top:0;
+    min-height:10px;
+    padding:0
+}
+
+#wpjournal_menu {
+    position:fixed;
+    top:0;
+    bottom:0;
+    width:13.755em;
+    right:-13.755em;
+    height:100%;
+    -webkit-transform:translate(0px,0px);
+    -moz-transform:translate(0px,0px);
+    -o-transform:translate(0px,0px);
+    -ms-transform:translate(0px,0px);
+    transform:translate(0px,0px);
+    -webkit-transition:.15s ease;
+    -moz-transition:.15s ease;
+    -o-transition:.15s ease;
+    transition:.15s ease
+}
+
+#wpjournal_menu.active {
+    -webkit-transform:translate(-13.755em,0px);
+    -moz-transform:translate(-13.755em,0px);
+    -o-transform:translate(-13.755em,0px);
+    -ms-transform:translate(-13.755em,0px);
+    transform:translate(-13.755em,0px);
+    background:#6B6A6A
+}
+
+.container {
+    -webkit-transform:translate(0px,0px);
+    -moz-transform:translate(0px,0px);
+    -o-transform:translate(0px,0px);
+    -ms-transform:translate(0px,0px);
+    transform:translate(0px,0px);
+    -webkit-transition:.15s ease;
+    -moz-transition:.15s ease;
+    -o-transition:.15s ease;
+    transition:.15s ease
+}
+
+.container.active {
+    -webkit-transform:translate(-13.725em,0px);
+    -moz-transform:translate(-13.725em,0px);
+    -o-transform:translate(-13.725em,0px);
+    -ms-transform:translate(-13.725em,0px);
+    transform:translate(-13.725em,0px)
+}
+
+.wpjournal_menu-link {
+    position:absolute;
+    top:0;
+    left:-60px;
+    background:#848484;
+    text-decoration:none;
+    height:50px;
+    width:60px;
+    text-align:center;
+    padding-top:15px;
+    display:block;
+    color:#efefef;
+    font-family:'Droid Serif'!important
+}
+
+a.wpjournal_menu-link:link {
+    color:#fff!important;
+    text-decoration:none
+}
+
+a.wpjournal_menu-link:hover {
+    color:#fff!important;
+    text-decoration:none
+}
+
+a.wpjournal_menu-link:active {
+    color:#fff!important;
+    text-decoration:none
+}
+
+#wpjournal_menu li {
+    font-family:'Droid Serif'!important;
+    list-style-type:none;
+    padding:0.5em
+}
+
+#wpjournal_menu li a {
+	  font-family:'Droid Serif'!important;
+    color:#fff;
+	font-size:14px;
+}
+
+#wpjournal_menu li a:hover {
+    color:orange;
+    text-decoration:none
+}
+
+.cols3 {
+	font-family:'Droid Serif'!important;
+}
+.area-titolo h1 {
+	font-family:'Droid Serif'!important;
+	margin:0!important;
+	padding:0;
+	}
+.author {
+	font-family:'Droid Serif'!important;
+    width:100%;
+    display:block;
+    border-top:1px solid silver;
+    border-bottom:1px solid silver;
+    margin-bottom:5px;
+    margin-top:5px;
+    text-transform:uppercase;
+    font-size:80%
+}
+
+.continue {
+    width:100%;
+    display:block;
+    border-top:1px solid silver;
+    border-bottom:1px solid silver;
+    margin-bottom:5px;
+    margin-top:5px;
+    text-transform:uppercase;
+    font-size:80%;
+    text-align:right
+}
+
+.image-wrap {
+    width:100%;
+    height:220px;
+    background:#BBB
+}
+
+#copyright {
+    text-align:center
+}
+
+#footer {
+    margin-top:10px;
+    border-top:1px solid silver;
+    text-transform:uppercase;
+    font-size:80%
+}
+
+.text-inside {
+    font-size:16px
+}
+
+#content.main-aspect {
+    font-family:'Droid Serif'!important;
+    line-height:1.42857143;
+    background-color:#FFF;
+    background-image:url(../img/letter.png);
+    background-position:right bottom;
+    background-repeat:no-repeat;
+    position:relative
+}
+
+.main-aspect {
+    margin-top:60px
+}
+
+.small_internal_subtitle {
+    text-align:center;
+    font-size:11px;
+    text-transform:uppercase
+}
+
+@media (min-width:970px) {
+.main-aspect {
+    width:960px!important;
+    min-height:1358px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-bottom:50px
+}
+
+.cols3 {
+    -webkit-column-count:3;
+    -webkit-column-gap:20px;
+    -webkit-column-rule:1px solid silver;
+    -moz-column-count:3;
+    -moz-column-gap:20px;
+    -moz-column-rule:1px solid silver;
+    column-count:3;
+    column-gap:20px;
+    column-rule:1px solid #000
+}
+
+.cols3 h1 {
+    -webkit-column-span:all;
+    -moz-column-span:all;
+    column-span:all
+}
+
+.footer-base {
+    position:absolute
+}
+}
+
+.wpjournal-content {
+	font-family:'Droid Serif'!important;	
+	font-size:14px;
+}
+
+.wpjournal-content a{
+	font-family:'Droid Serif'!important;	
+	font-size:14px;
+}

@@ -1,0 +1,1218 @@
+#sortable {
+    width:88%;
+    margin:0;
+    padding:0;
+    list-style-type:none
+}
+
+#sortable li {
+    margin:0 3px 3px;
+    margin-bottom:1em;
+    padding:1em;
+    border-radius:5px;
+    background-color:#fff;
+    -webkit-box-shadow:0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow:0 1px 1px 0 rgba(0,0,0,.1)
+}
+
+.preview_immagine {
+    display:block;
+    width:96%;
+    height:130px;
+    margin:0 auto;
+    margin-bottom:1em;
+    border:2px solid #efefef;
+    background-size:cover!important
+}
+
+.warn-WPJournal {
+    color:#999
+}
+
+.warning-errore {
+    color:#F63
+}
+
+.grid,.unit {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+.grid {
+    display:block;
+    clear:both
+}
+
+.grid .unit {
+    float:left;
+    width:100%;
+    padding:10px
+}
+
+.grid .unit:first-child {
+    padding-left:10px
+}
+
+.grid .unit:last-child {
+    padding-right:10px
+}
+
+.unit
+.unit:first-child {
+    padding-left:0
+}
+
+.unit .unit:last-child {
+    padding-right:0
+}
+
+.unit .grid:first-child &gt; .unit {
+    padding-top:0
+}
+
+.unit .grid:last-child &gt; .unit {
+    padding-bottom:0
+}
+
+.no-gutters .unit,.unit.no-gutters {
+    padding:0!important
+}
+
+.wrap .grid,.grid.wrap {
+    margin:0 auto;
+    max-width:978px
+}
+
+.grid .whole,.grid .w-1-1 {
+    width:100%
+}
+
+.grid .half,.grid .w-1-2 {
+    width:50%
+}
+
+.grid .one-third,.grid
+.w-1-3 {
+    width:33.3332%
+}
+
+.grid .two-thirds,.grid .w-2-3 {
+    width:66.6665%
+}
+
+.grid .one-quarter,.grid .w-1-4 {
+    width:25%
+}
+
+.grid
+.three-quarters,.grid .w-3-4 {
+    width:75%
+}
+
+.grid .one-fifth,.grid
+.w-1-5 {
+    width:20%
+}
+
+.grid .two-fifths,.grid .w-2-5 {
+    width:40%
+}
+
+.grid .three-fifths,.grid .w-3-5 {
+    width:60%
+}
+
+.grid .four-fifths,.grid
+.w-4-5 {
+    width:80%
+}
+
+.grid .golden-small,.grid .w-g-s {
+    width:38.2716%
+}
+
+.grid .golden-large,.grid .w-g-l {
+    width:61.7283%
+}
+
+.grid {
+    *zoom:1
+}
+
+.grid:before,.grid:after {
+    content:"";
+    display:table;
+    line-height:0
+}
+
+.grid:after {
+    clear:both
+}
+
+.align-center {
+    text-align:center
+}
+
+.align-left {
+    text-align:left
+}
+
+.align-right {
+    text-align:right
+}
+
+.pull-left {
+    float:left
+}
+
+.pull-right {
+    float:right
+}
+
+@media screen and
+(max-width:568px) {
+.grid .unit {
+    width:100%!important;
+    padding-right:20px;
+    padding-left:20px
+}
+
+.unit .grid .unit {
+    padding-right:0;
+    padding-left:0
+}
+
+.center-on-mobiles {
+    text-align:center!important
+}
+
+.hide-on-mobiles {
+    display:none!important
+}
+}
+
+@media screen and
+(min-width:1180px) {
+.wider .grid {
+    margin:0 auto;
+    max-width:1180px
+}
+}
+
+.golden-large input {
+    width:100%;
+    padding:6px
+}
+
+#blocco_tab {
+    margin:10px 20px 0 2px;
+    display:block
+}
+
+.neoaccordion {
+    padding:0;
+    margin:2em 0;
+    width:100%;
+    overflow:hidden;
+    font-size:1em;
+    position:relative
+}
+
+.neoaccordion__title {
+    padding:0 1em;
+    background:#ccc;
+    border-top:2px solid #eee;
+    color:#222;
+    float:left;
+    line-height:3;
+    height:3em;
+    cursor:pointer;
+    margin-right:.25em
+}
+
+.no-js
+.neoaccordion__title {
+    float:none;
+    height:auto;
+    cursor:auto;
+    margin:0;
+    padding:0 2em
+}
+
+.neoaccordion__content {
+    float:right;
+    width:100%;
+    margin:3em 0 0 -100%;
+    padding:0;
+    background:#FFF
+}
+
+.no-js
+.neoaccordion__content {
+    float:left;
+    margin:0
+}
+
+.neoaccordion__title:hover,.neoaccordion__title.active {
+    background:#FFF;
+    color:#b0b0b0
+}
+
+.no-js .neoaccordion__title:hover {
+    background-color:#ccc;
+    color:#222
+}
+
+.neoaccordion__title.active {
+    border-top-color:#fc0
+}
+
+@media (max-width: 48em) {
+.neoaccordion {
+    border:1px solid grey
+}
+
+.neoaccordion__title,.neoaccordion__content {
+    float:none;
+    margin:0
+}
+
+.neoaccordion__title:first-child {
+    border:none
+}
+
+.neoaccordion__title.active {
+    border-top-color:#eee
+}
+
+.neoaccordion__title.active,.neoaccordion__title:hover {
+    background:#FFF
+}
+
+.neoaccordion__title:before {
+    content:"+";
+    text-align:center;
+    width:2em;
+    display:inline-block
+}
+
+.neoaccordion__title.active:before {
+    content:"-"
+}
+
+.overflow-scrolling {
+    overflow-y:scroll;
+    height:11em;
+    padding:1em 1em 0;
+    -webkit-overflow-scrolling:touch
+}
+
+.neoaccordion__content {
+    position:relative;
+    overflow:hidden;
+    padding:0
+}
+
+.no-js
+.neoaccordion__content {
+    padding:1em;
+    overflow:auto;
+    display:block
+}
+
+.neoaccordion__content:after {
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    height:50px;
+    border-radius:10px 0 0 10px / 50% 0 0 50%;
+    box-shadow:-5px 0 10px rgba(0,0,0,0.5);
+    content:''
+}
+}
+
+#loading-elenco {
+    text-align:center;
+    padding-top:3em;
+    padding-bottom:3em;
+    display:block;
+    width:100%;
+    margin-bottom:1.4em;
+    height:200px
+}
+
+#loading-elenco-im {
+    width:70px;
+    height:70px;
+    display:block;
+    margin:0 auto;
+    content:url('../img/WPJournal-loader.gif')
+}
+
+.loading-salvataggio {
+    width:70px;
+    height:70px;
+    display:block;
+    margin:0 auto;
+    content:url('../img/WPJournal-loader.gif')
+}
+
+.messaggio-salvataggio {
+    color:#FF4720;
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    margin-top:-9px;
+    display:block;
+    font-size:22px
+}
+
+h2.WPJournal_logo_WPJournal {
+    padding-left:100px;
+    padding-top:15px;
+    padding-bottom:20px;
+    background:url(../img/WPJournal_WPJournal_logo.png) no-repeat;
+    color:#777
+}
+
+.items {
+    float:left
+}
+
+.items
+div {
+    width:100%;
+    background:#444;
+    color:#fff;
+    margin-bottom:4px;
+    padding:6px;
+    text-align:center
+}
+
+.content_wdg_WPJournal {
+    background:#eee;
+    position:absolute
+}
+
+.items .block,.content_wdg_WPJournal .block {
+    background:#bbb;
+    margin-bottom:10px;
+    color:#000
+}
+
+.content_wdg_WPJournal
+.block-placeholder {
+    height:98px!important;
+    border:1px dotted #000;
+    margin-bottom:10px;
+    width:498px
+}
+
+.blocco-elemento {
+    display:block;
+    margin:0 auto;
+    border-radius:4px;
+    color:#2F2F2F;
+    padding:6px;
+    -webkit-box-shadow:0 1px 1px 0 rgba(200,200,200,.4);
+    box-shadow:0 1px 1px 0 rgba(200,200,200,.4);
+    background:#FC0
+}
+
+#dest_new {
+    height:150px;
+    background:#f0f0f0;
+    border-radius:4px
+}
+
+.campo_mancante {
+    border:1px solid red!important
+}
+
+.alert_campo_mancante {
+    color:red;
+    font-size:16px
+}
+
+.blocco_WPJournal {
+    display:block;
+    margin-bottom:15px;
+    border-top:2px solid orange;
+    -webkit-border-bottom-right-radius:3px;
+    -webkit-border-bottom-left-radius:3px;
+    -moz-border-radius-bottomright:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-bottom-right-radius:3px;
+    border-bottom-left-radius:3px;
+    background-color:#fff;
+    -webkit-box-shadow:0 1px 1px 0 rgba(0,0,0,.55);
+    box-shadow:0 1px 1px 0 rgba(0,0,0,.55)
+}
+
+.interno_WPJournal {
+    padding:1em
+}
+
+.WPJournal_modifica {
+    display:none;
+    background:orange
+}
+
+#cover {
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:url(../img/WPJournal-loader.gif) no-repeat center center rgba(255,255,255,0.9);
+    display:none;
+    text-align:center;
+    padding-top:100px
+}
+
+.mesortable div {
+    float:left
+}
+
+.area_modifica_WPJournal {
+    display:table;
+    width:100%
+}
+
+.btnDel {
+    vertical-align:baseline;
+    cursor:pointer
+}
+
+.WPJournal_button {
+    -moz-box-shadow:inset 0 1px 0 0 #fff;
+    -webkit-box-shadow:inset 0 1px 0 0 #fff;
+    box-shadow:inset 0 1px 0 0 #fff;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#ededed),color-stop(1,#dfdfdf));
+    background:-moz-linear-gradient(top,#ededed 5%,#dfdfdf 100%);
+    background:-webkit-linear-gradient(top,#ededed 5%,#dfdfdf 100%);
+    background:-o-linear-gradient(top,#ededed 5%,#dfdfdf 100%);
+    background:-ms-linear-gradient(top,#ededed 5%,#dfdfdf 100%);
+    background:linear-gradient(to bottom,#ededed 5%,#dfdfdf 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed',endColorstr='#dfdfdf',GradientType=0);
+    background-color:#ededed;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#777;
+    font-size:15px;
+    padding:6px 20px;
+    width:90%;
+    text-decoration:none;
+    text-shadow:0 1px 0 #fff
+}
+
+.WPJournal_button:hover {
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#dfdfdf),color-stop(1,#ededed));
+    background:-moz-linear-gradient(top,#dfdfdf 5%,#ededed 100%);
+    background:-webkit-linear-gradient(top,#dfdfdf 5%,#ededed 100%);
+    background:-o-linear-gradient(top,#dfdfdf 5%,#ededed 100%);
+    background:-ms-linear-gradient(top,#dfdfdf 5%,#ededed 100%);
+    background:linear-gradient(to bottom,#dfdfdf 5%,#ededed 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf',endColorstr='#ededed',GradientType=0);
+    background-color:#dfdfdf
+}
+
+.WPJournal_button:active {
+    position:relative;
+    top:1px
+}
+
+.demo .unit
+.block_layout {
+    margin:0;
+    padding:20px 0;
+    text-align:center;
+    width:100%;
+    border:1px solid #fff;
+    border-radius:6px;
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out
+}
+
+.demo .unit .block_layout:hover {
+    background:#fc0;
+    border:1px solid #fc0;
+    cursor:pointer
+}
+
+
+.WPJournal-step {
+	 
+    border-bottom:2px solid #DFDFDF;
+    color:#D0D0D0;
+	border-top:2px solid white;
+}
+
+.WPJournal-step.done span.numberology {
+    background:#AFAFAF;
+    border-radius:.8em;
+    -moz-border-radius:.8em;
+    -webkit-border-radius:.8em;
+    color:#fff;
+    display:inline-block;
+    font-weight:700;
+    line-height:1.6em;
+    margin-right:6px;
+    text-align:center;
+    width:1.6em
+}
+
+.WPJournal-step.active span.numberology {
+    background:#29ABE2;
+    border-radius:.8em;
+    -moz-border-radius:.8em;
+    -webkit-border-radius:.8em;
+    color:#fff;
+    display:inline-block;
+    font-weight:700;
+    line-height:1.6em;
+    margin-right:6px;
+    text-align:center;
+    width:1.6em
+}
+
+
+
+ 
+
+.WPJournal-step.active {
+    border-bottom:2px solid #29ABE2;
+    color:#29ABE2
+}
+
+.WPJournal-step.done {
+     
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+	border:2px solid #f3f3f3;
+	border-left:0;
+	border-right:0;
+	border-bottom:2px solid #8F8F8F;
+    color:#8F8F8F;
+	background:#f3f3f3;
+	 
+}
+
+.WPJournal-step.done.custom_selected {
+ 
+	border: 2px solid #8F8F8F;
+  color: #8F8F8F;
+  background: white;
+  border-bottom: 2px solid white;
+	}
+
+.WPJournal-step.done:hover {
+    background:#dadada;
+    color:white;
+    cursor:pointer
+}
+.WPJournal-step.done.active.custom_selected:hover {
+    
+    color:#29ABE2;
+   
+}
+
+.WPJournal-step.active {
+     
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out
+}
+
+.WPJournal-step.active:hover {
+    background:#BCE5FD;
+ 
+    cursor:pointer
+}
+
+.WPJournal-step.custom_selected {
+	background: white;
+	
+	border-bottom:2px solid white;
+	
+	}
+	
+.WPJournal-step.active.custom_selected {
+	background: white;
+	border:2px solid #29ABE2;
+	border-bottom:2px solid white;
+	
+	}	
+		
+	
+.WPJournal-step.area_check_active {
+	background: #88C688;	
+	border: 2px solid #88C688;
+	
+}
+
+
+
+.demo .unit
+.block_layout_not_avaiable {
+    margin:0;
+    padding:20px 0;
+    text-align:center;
+    width:100%
+}
+
+.grid,.unit {
+    -webkit-transition:all .25s ease-in-out;
+    -moz-transition:all .25s ease-in-out;
+    transition:all .25s ease-in-out
+}
+
+.demo .unit .grid {
+    overflow:hidden;
+    background:rgba(241,227,213,.5)
+}
+
+.demo .unit .grid:first-child {
+    border-radius:5px 5px 0 0
+}
+
+.demo .unit
+.grid:last-child {
+    border-radius:0 0 5px 5px
+}
+
+#nuovo_layout {
+    display:none
+}
+
+#area_alert {
+    display:none;
+    background:#F06760;
+    width:100%;
+    padding:10px;
+    color:#fff;
+    font-size:16px
+}
+
+#layout_scelto {
+    display:none
+}
+
+.block-menabo {
+    display:block;
+    text-align:center;
+    min-height:18px;
+    padding-top:10px!important;
+    padding-bottom:2px!important;
+    border:1px dotted #ABD1FA;
+    border-radius:6px;
+    background:#CADEEC;
+    margin-bottom:5px
+}
+
+.ogg-draggable {
+    display:block;
+    width:90%;
+    height:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:1px dotted #ABD1FA
+}
+
+.wideBox {
+    clear:both;
+    text-align:center;
+    margin:70px;
+    padding:10px;
+    background:#ebedf2;
+    border:1px solid #333
+}
+
+.wideBox h1 {
+    font-weight:700;
+    margin:20px;
+    color:#666;
+    font-size:1.5em
+}
+
+#postJournalSlots {
+    margin:auto 0;
+    background:#fafafa
+}
+
+.postJournalPile {
+    margin:0 auto;
+    background:#fff
+}
+
+#postJournalSlots div,.postJournalPile div {
+    padding:6px
+}
+
+#postJournalSlots {
+    background:#EFEFEF
+}
+
+#postJournalSlots div.hovered {
+    background:#aaa!important
+}
+
+#postJournalSlots div {
+    -webkit-border-bottom-right-radius:3px;
+    -webkit-border-bottom-left-radius:3px;
+    -moz-border-radius-bottomright:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-bottom-right-radius:3px;
+    border-bottom-left-radius:3px;
+    margin:0 auto;
+    margin-bottom:2px;
+    color:#4A4949
+}
+
+.postJournalPile div {
+    background:#A6C5E3;
+    color:#fff;
+    font-size:12px
+}
+
+.postJournalPile div.ui-draggable-dragging {
+    -moz-box-shadow:0 0 .5em rgba(0,0,0,.8);
+    -webkit-box-shadow:0 0 .5em rgba(0,0,0,.8);
+    box-shadow:0 0 .5em rgba(0,0,0,.8)
+}
+
+.ui-draggable .ui-draggable-handle .block-menabo .correct
+.ui-draggable-disabled {
+    background:#B0E183!important;
+    font-size:12px!important;
+    color:#fafafa!important
+}
+
+#successMessage {
+    position:absolute;
+    left:580px;
+    top:250px;
+    width:0;
+    height:0;
+    z-index:100;
+    background:#dfd;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    -moz-box-shadow:.3em .3em .5em rgba(0,0,0,.8);
+    -webkit-box-shadow:.3em .3em .5em rgba(0,0,0,.8);
+    box-shadow:.3em .3em .5em rgba(0,0,0,.8);
+    padding:20px
+}
+
+#postJournalSlots .ui-droppable {
+    background:#fff!important;
+    margin-bottom:5px;
+    text-align:center
+}
+
+#PrimoPiano {
+    border-top:3px solid #A6C5E3
+}
+
+.area-drop {
+    min-height:200px
+}
+
+#area2 {
+    border-top:3px solid #F44
+}
+
+#area3 {
+    border-top:3px solid #FB3
+}
+
+#area4 {
+    border-top:3px solid #9C0
+}
+
+#area5 {
+    border-top:3px solid #A6C
+}
+
+#area6 {
+    border-top:3px solid #33B5E5
+}
+
+#area7 {
+    border-top:3px solid #33B5E5
+}
+
+li:not(#foo) &gt; fieldset &gt; div &gt; span &gt;
+input[type='radio'],li:not(#foo) &gt; fieldset &gt; div &gt; span &gt;
+input[type='checkbox'] {
+    opacity:0;
+    float:left;
+    width:100px
+}
+
+li:not(#foo) &gt; fieldset &gt;
+div &gt; span &gt; input[type='radio'] + label,li:not(#foo) &gt; fieldset
+&gt; div &gt; span &gt; input[type='checkbox'] + label {
+    margin:0;
+    clear:none;
+    padding:5px 0 4px 24px;
+    cursor:pointer;
+    background:red
+}
+
+li:not(#foo) &gt; fieldset &gt; div &gt;
+span &gt; input[type='radio']:checked + label {
+    background:#ff0
+}
+
+li:not(#foo) &gt; fieldset &gt; div
+&gt; span &gt; input[type='checkbox']:checked + label {
+    background:purple
+}
+
+.small_warning {
+    background:#CFCFCF;
+    padding:.5em;
+    margin:.2em
+}
+
+#inside-pages {
+    display:none
+}
+
+.front-page-block {
+    background:#CFCFCF;
+    padding:10px;
+    color:#353535;
+    border:1px dotted #ABD1FA;
+    border-radius:6px;
+    margin-bottom:20px;
+    text-align:center
+}
+
+.sortable-article-block {
+    background:#FC0;
+    padding:10px;
+    color:#353535;
+    border:1px dotted #EB0;
+    border-radius:6px;
+    min-height:18px;
+    margin-bottom:6px;
+    text-align:center
+}
+
+.sort-block-menabo {
+    display:block;
+    text-align:center;
+    width:100%;
+    min-height:18px;
+    padding-top:10px!important;
+    padding-bottom:2px!important;
+    border:1px dotted #ABD1FA;
+    border-radius:6px;
+    background:#CADEEC;
+    margin-bottom:5px
+}
+
+#published-area.hovered {
+    background:#eaeaea!important
+}
+
+#published-area {
+    padding:10px;
+    border:1px solid #e0e0e0
+}
+
+#final-save {
+    display:none;
+    text-align:right
+}
+#final-update {
+    display:none;
+    text-align:right
+}
+
+.hide {
+    display:none
+}
+
+.darker {
+    background:#ababab!important
+}
+
+.show-published-articles {
+    background:#DEDEDE!important;
+    border-radius:0;
+    cursor:pointer;
+    margin-bottom:10px;
+    color:#525252!important;
+    text-align:center;
+    padding:3px!important
+}
+
+.show-published-articles:hover {
+    background:#CDCDCD!important
+}
+
+.ui-draggable {
+    cursor:move
+}
+
+.ui-draggable-disabled {
+    cursor:default!important
+}
+
+.update-articles {
+    background:#DEDEDE!important;
+    border-radius:0;
+    cursor:pointer;
+    margin-bottom:10px;
+    color:#525252!important;
+    text-align:center;
+    padding:3px!important
+}
+
+.update-articles:hover {
+    background:#CDCDCD!important
+}
+
+.WPJournal-button {
+    display:inline-block;
+    zoom:1;
+    line-height:normal;
+    white-space:nowrap;
+    vertical-align:middle;
+    text-align:center;
+    cursor:pointer;
+    -webkit-user-drag:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+.WPJournal-button::-moz-focus-inner {
+    padding:0;
+    border:0
+}
+
+.WPJournal-button {
+    font-family:inherit;
+    font-size:100%;
+    padding:.3em .5em;
+    color:#797979;
+    border:1px solid #999;
+    border:0 rgba(0,0,0,0);
+    background-color:rgba(230,230,230,0.6);
+    text-decoration:none;
+    border-radius:2px
+}
+
+.WPJournal-button-hover,.WPJournal-button:hover,.WPJournal-button:focus {
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#1a000000',GradientType=0);
+    background-image:-webkit-gradient(linear,0 0,0 100%,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));
+    background-image:-webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+    background-image:-moz-linear-gradient(top,rgba(0,0,0,.05) 0,rgba(0,0,0,.1));
+    background-image:-o-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+    background-image:linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))
+}
+
+.WPJournal-button:focus {
+    outline:0
+}
+
+.WPJournal-button-active,.WPJournal-button:active {
+    box-shadow:0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;
+    border-color:#000\9
+}
+
+.WPJournal-button[disabled],.WPJournal-button-disabled,.WPJournal-button-disabled:hover,.WPJournal-button-disabled:focus,.WPJournal-button-disabled:active {
+    border:0;
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    filter:alpha(opacity=40);
+    -khtml-opacity:.4;
+    -moz-opacity:.4;
+    opacity:.4;
+    cursor:not-allowed;
+    box-shadow:none
+}
+
+.WPJournal-button-hidden {
+    display:none
+}
+
+.WPJournal-button::-moz-focus-inner {
+    padding:0;
+    border:0
+}
+
+.WPJournal-button-primary,.WPJournal-button-selected,a.WPJournal-button-primary,a.WPJournal-button-selected {
+    background-color:#0078e7;
+    color:#fff
+}
+
+.btnDels {
+    margin:4px
+}
+
+#area_check {
+    display:none;
+	background:#9BB869
+}
+#area_load {
+    display:none
+}
+#area_check h3{
+    padding:0;
+	margin:0;
+	color:#E2ECC5;
+	font-weight:100;
+	font-size:29px;
+}
+
+
+.hide {
+    display:none
+}
+
+#area_cancel {
+    display:none;
+    text-align:right
+}
+
+#block_cancel {
+    height:35px;
+	margin-top:5px;
+}
+
+.cancel-new-Journal {
+    background:#C2C2C2;
+    color:#7E7E7E;
+    padding-left:.5em;
+    padding-right:.3em;
+	padding-bottom:.3em;
+	padding-top:.3em;
+    cursor:pointer
+}
+
+.cancel-new-Journal:hover {
+    background:#FC0;
+    color:gray
+}
+
+span.numberology {
+    background:#DFDFDF;
+    border-radius:.8em;
+    -moz-border-radius:.8em;
+    -webkit-border-radius:.8em;
+    color:#fff;
+    display:inline-block;
+    font-weight:700;
+    line-height:1.6em;
+    margin-right:6px;
+    text-align:center;
+    width:1.6em
+}
+
+
+
+.advice-small {
+    background:#EFEFEF;
+    color:#848484;
+    padding:1em;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px
+}
+
+.add-journal-post {
+    line-height:1em;
+    background:#D6D6D6;
+    text-decoration:none;
+    padding:.5em;
+    padding-left:1em;
+    padding-right:1em;
+    margin-left:15px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px
+}
+
+.add-journal-post:hover {
+    background:#DFDFDF
+}
+
+.advice-small .numberology {
+    background:#BFBFBF;
+    border-radius:1em;
+    -moz-border-radius:1em;
+    -webkit-border-radius:1em;
+    color:#fff;
+    display:inline-block;
+    line-height:2em;
+    margin-right:6px;
+    text-align:center;
+    width:2em
+}
+
+.wpjournal_plugin_name {
+    font-weight:900
+}
+
+.wpjournal_plugin_motto {
+    font-weight:100
+}
+
+.grid.whole.wpjournal_extra_margin {
+    margin:1.2em
+}
+
+.overflow-scrolling.grid.whole.wpjournal_margin {
+    margin-top:1.2em;
+    margin-bottom:1.2em
+}
+
+.layoutchosen { 
+		background: RGBA(255, 204, 0, 0.4);
+		 
+}
+
+
+#next-inside-pages {
+	display:none;
+	text-align:right;
+	}
+#WPJournal-edit-advise {
+	display:none;
+}
+p.WPJournal-advise-text{
+	color:#E2ECC5;
+	font-size:17px;
+	font-weight:100;
+	line-height:1.1em;
+	padding:0;
+	margin:0;
+}
+
+#WPjournal-advise-update {
+	padding:1em;
+	background:	#FFCC00;
+	
+	display:none;
+	line-height:26px;
+}

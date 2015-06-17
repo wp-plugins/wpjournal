@@ -3,7 +3,7 @@
 Plugin Name: WPJournal
 Plugin URI:  
 Description: Create immediatly your online journal as a WP spin-off. Choose a layout and publish your articles in a ready to print Journal-like template. 
-Version: 1.0
+Version: 1.1
 Author: Mediabeta
 Author URI: http://www.mediabeta.com
 License: GPL2
